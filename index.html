@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kvíz Játék</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container" id="quiz-container">
+        <div id="question-container" class="hide">
+            <div id="question">Kérdés</div>
+            <div id="answer-buttons" class="btn-container"></div>
+        </div>
+        <button id="start-btn" class="start-btn">Kvíz indítása</button>
+        <button id="next-btn" class="next-btn hide">Következő kérdés</button>
+        <div id="result-container" class="result-container hide">
+            <h2>Eredmények:</h2>
+            <p>Helyes válaszok: <span id="correct-count">0</span></p>
+            <p>Helytelen válaszok: <span id="wrong-count">0</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
