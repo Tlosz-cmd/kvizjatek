@@ -213,6 +213,41 @@ const questions = [
             {text:'Már így kezdődik a játék',correct:false}
     ]
    },
- 
-  
+   {
+    question:'Joci hány if ciklust csinált?',
+    answers:[
+        {text:'Kurvasokat',correct:false},
+        {text:'40',correct:true},
+        {text:'Egyet sem ',correct:false},
+        {text:'Sokat',correct:false}
+    ]
+   },
+   {
+    question : 'Mivel és miét kente be magát Cmarkó?',
+    answers:[
+        {text:'Olajjal,egész test',correct:false},
+        {text:'Csalánnal,a nemi szervét',correct:false},
+        {text:'Ecetes-töpörtyűs borogatással,kezét',correct:false},
+        {text:'Flektorral,fejét',correct:true}
+
+    ]
+   },
+   {
+    question :'Kinek a nevéhez fűződik az öklös szerválás röpiben?',
+    answers:[
+        {text:'AZ ISTEN A KIRÁLY A LEGENDA(TOTÓ)',correct:true},
+        {text:'Csala Mankó',correct:false},
+        {text:'Ssik Tlosz',correct:false},
+        {text:'Sipos Joci',correct:false}
+    ]
+   },
+   {
+    question :'Ki a legjobb magyar Twitch streamer?',
+    answers:[
+        {text:'AK',correct:true},
+        {text:'Ruben',correct:false},
+        {text:'Mannin',correct:false},
+        {text:'Nessaj',correct:false}
+    ]
+   }
 ];
